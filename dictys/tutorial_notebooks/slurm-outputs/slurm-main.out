@@ -1,0 +1,1126 @@
+WARNING:root:Chromosomes not found in reference genome: chrGL000194.1,chrMT
+WARNING:root:Cannot find dynamic.mk or traj_node.h5. Skipping dynamic network inference checks.
+Joint profile: True
+Found 11898 cells with RNA profile
+Found 24036 genes with RNA profile
+Found 11898 cells with ATAC profile
+Found 769 motifs
+Found 678 TFs
+Found 461 TFs in current dataset
+Missing 217 TFs in current dataset: ANDR,AP2A,AP2B,AP2C,AP2D,ARI3A,ARI5B,ATF6A,BARH1,BARH2,BC11A,BHA15,BHE22,BHE23,BHE40,BHE41,BMAL1,BRAC,BSH,COE1,COT1,COT2,CR3L1,CR3L2,ERR1,ERR2,ERR3,EVI1,GCR,HEN1,HMBX1,HME1,HME2,HNF6,HTF4,HXA1,HXA10,HXA11,HXA13,HXA2,HXA5,HXA7,HXA9,HXB1,HXB13,HXB2,HXB3,HXB4,HXB6,HXB7,HXB8,HXC10,HXC11,HXC12,HXC13,HXC6,HXC8,HXC9,HXD10,HXD11,HXD12,HXD13,HXD3,HXD4,HXD8,HXD9,ITF2,KAISO,MCR,MGAP,MLXPL,MYBA,MYBB,NDF1,NDF2,NF2L1,NF2L2,NFAC1,NFAC2,NFAC3,NFAC4,NGN2,NKX21,NKX22,NKX23,NKX25,NKX28,NKX31,NKX32,NKX61,NKX62,ONEC2,ONEC3,OZF,P53,P5F1B,P63,P73,PEBB,PHX2A,PHX2B,PIT1,PKNX1,PLAL1,PO2F1,PO2F2,PO2F3,PO3F1,PO3F2,PO3F3,PO3F4,PO4F1,PO4F2,PO4F3,PO5F1,PO6F1,PO6F2,PRD14,PRGR,RHXF1,RORG,RX,SMCA1,SMCA5,SRBP1,SRBP2,STA5A,STA5B,STF1,SUH,TF2LX,TF65,TF7L1,TF7L2,TFE2,THA,THA11,THB,TWST1,TYY1,TYY2,UBIP1,UNC4,Z324A,Z354A,ZBT14,ZBT17,ZBT18,ZBT48,ZBT49,ZBT7A,ZBT7B,ZEP1,ZEP2,ZF64A,ZKSC1,ZKSC3,ZN121,ZN134,ZN136,ZN140,ZN143,ZN148,ZN214,ZN219,ZN232,ZN250,ZN257,ZN260,ZN263,ZN264,ZN274,ZN281,ZN282,ZN317,ZN320,ZN322,ZN329,ZN331,ZN333,ZN335,ZN341,ZN350,ZN382,ZN384,ZN394,ZN410,ZN418,ZN423,ZN436,ZN449,ZN467,ZN490,ZN502,ZN524,ZN528,ZN547,ZN549,ZN554,ZN563,ZN582,ZN586,ZN589,ZN652,ZN667,ZN680,ZN708,ZN713,ZN740,ZN768,ZN770,ZN784,ZN816,ZSC16,ZSC22,ZSC31,ZSCA4
+Found 23533 genes with TSS information
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset1/names_rna.txt tmp_static/Subset1/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset10/names_rna.txt tmp_static/Subset10/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset11/names_rna.txt tmp_static/Subset11/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset12/names_rna.txt tmp_static/Subset12/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset13/names_rna.txt tmp_static/Subset13/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset14/names_rna.txt tmp_static/Subset14/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset2/names_rna.txt tmp_static/Subset2/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset3/names_rna.txt tmp_static/Subset3/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset4/names_rna.txt tmp_static/Subset4/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset5/names_rna.txt tmp_static/Subset5/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset6/names_rna.txt tmp_static/Subset6/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset7/names_rna.txt tmp_static/Subset7/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset8/names_rna.txt tmp_static/Subset8/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_rna  data/expression.tsv.gz tmp_static/Subset9/names_rna.txt tmp_static/Subset9/expression0.tsv.gz
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset14/expression0.tsv.gz tmp_static/Subset14/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset12/expression0.tsv.gz tmp_static/Subset12/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset14/expression.tsv.gz tmp_static/Subset14/names_atac0.txt tmp_static/Subset14/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset2/expression0.tsv.gz tmp_static/Subset2/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset14/names_atac.txt data/bams tmp_static/Subset14/reads.bam tmp_static/Subset14/reads.bai tmp_static/Subset14/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset4/expression0.tsv.gz tmp_static/Subset4/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset13/expression0.tsv.gz tmp_static/Subset13/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset12/expression.tsv.gz tmp_static/Subset12/names_atac0.txt tmp_static/Subset12/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset8/expression0.tsv.gz tmp_static/Subset8/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset13/expression.tsv.gz tmp_static/Subset13/names_atac0.txt tmp_static/Subset13/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset12/names_atac.txt data/bams tmp_static/Subset12/reads.bam tmp_static/Subset12/reads.bai tmp_static/Subset12/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset13/names_atac.txt data/bams tmp_static/Subset13/reads.bam tmp_static/Subset13/reads.bai tmp_static/Subset13/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset10/expression0.tsv.gz tmp_static/Subset10/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset2/expression.tsv.gz tmp_static/Subset2/names_atac0.txt tmp_static/Subset2/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset8/expression.tsv.gz tmp_static/Subset8/names_atac0.txt tmp_static/Subset8/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset9/expression0.tsv.gz tmp_static/Subset9/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset2/names_atac.txt data/bams tmp_static/Subset2/reads.bam tmp_static/Subset2/reads.bai tmp_static/Subset2/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset8/names_atac.txt data/bams tmp_static/Subset8/reads.bam tmp_static/Subset8/reads.bai tmp_static/Subset8/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset9/expression.tsv.gz tmp_static/Subset9/names_atac0.txt tmp_static/Subset9/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset4/expression.tsv.gz tmp_static/Subset4/names_atac0.txt tmp_static/Subset4/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset11/expression0.tsv.gz tmp_static/Subset11/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset9/names_atac.txt data/bams tmp_static/Subset9/reads.bam tmp_static/Subset9/reads.bai tmp_static/Subset9/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset4/names_atac.txt data/bams tmp_static/Subset4/reads.bam tmp_static/Subset4/reads.bai tmp_static/Subset4/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset10/expression.tsv.gz tmp_static/Subset10/names_atac0.txt tmp_static/Subset10/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset10/names_atac.txt data/bams tmp_static/Subset10/reads.bam tmp_static/Subset10/reads.bai tmp_static/Subset10/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset11/expression.tsv.gz tmp_static/Subset11/names_atac0.txt tmp_static/Subset11/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset5/expression0.tsv.gz tmp_static/Subset5/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset6/expression0.tsv.gz tmp_static/Subset6/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset11/names_atac.txt data/bams tmp_static/Subset11/reads.bam tmp_static/Subset11/reads.bai tmp_static/Subset11/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset7/expression0.tsv.gz tmp_static/Subset7/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset5/expression.tsv.gz tmp_static/Subset5/names_atac0.txt tmp_static/Subset5/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset1/expression0.tsv.gz tmp_static/Subset1/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset5/names_atac.txt data/bams tmp_static/Subset5/reads.bam tmp_static/Subset5/reads.bai tmp_static/Subset5/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset6/expression.tsv.gz tmp_static/Subset6/names_atac0.txt tmp_static/Subset6/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset6/names_atac.txt data/bams tmp_static/Subset6/reads.bam tmp_static/Subset6/reads.bai tmp_static/Subset6/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc qc_reads  tmp_static/Subset3/expression0.tsv.gz tmp_static/Subset3/expression.tsv.gz 50 10 0 200 100 0
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset7/expression.tsv.gz tmp_static/Subset7/names_atac0.txt tmp_static/Subset7/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset7/names_atac.txt data/bams tmp_static/Subset7/reads.bam tmp_static/Subset7/reads.bai tmp_static/Subset7/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset1/expression.tsv.gz tmp_static/Subset1/names_atac0.txt tmp_static/Subset1/names_atac.txt
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset1/names_atac.txt data/bams tmp_static/Subset1/reads.bam tmp_static/Subset1/reads.bai tmp_static/Subset1/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  preproc selects_atac  tmp_static/Subset3/expression.tsv.gz tmp_static/Subset3/names_atac0.txt tmp_static/Subset3/names_atac.txt
+[bam_sort_core] merging from 8 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset3/names_atac.txt data/bams tmp_static/Subset3/reads.bam tmp_static/Subset3/reads.bai tmp_static/Subset3/peaks.bed hs
+[bam_sort_core] merging from 16 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+makefiles/common.mk:41: WARNING: Temporary folder (/tmp) available space >100GB recommended.
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset13/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset13/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset13/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset13/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset14/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset14/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset14/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset14/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset6/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset6/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset6/peaks.bed hs 0.05 4
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset2/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset2/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset2/peaks.bed hs 0.05 4
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nsamtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+[bam_sort_core] merging from 16 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 24 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 28 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+fs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset10/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset10/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset10/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset6/reads.bam] Error 1
+make: *** [makefiles/common.mk:138: tmp_static/Subset2/reads.bam] Error 1
+make: *** [makefiles/common.mk:138: tmp_static/Subset10/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset11/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset11/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset11/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset11/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset9/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset9/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset9/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset9/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset12/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset12/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset12/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset12/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset7/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset7/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset7/peaks.bed hs 0.05 4
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+[bam_sort_core] merging from 40 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 52 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset1/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset1/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset1/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset7/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset3/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset3/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset3/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset1/reads.bam] Error 1
+make: *** [makefiles/common.mk:138: tmp_static/Subset3/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset5/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset5/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset5/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset5/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset8/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset8/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset8/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset8/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-[bam_sort_core] merging from 52 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset4/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset4/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset4/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset4/reads.bam] Error 1
+make: Target 'cpu' not remade because of errors.
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset1/names_atac.txt data/bams tmp_static/Subset1/reads.bam tmp_static/Subset1/reads.bai tmp_static/Subset1/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset10/names_atac.txt data/bams tmp_static/Subset10/reads.bam tmp_static/Subset10/reads.bai tmp_static/Subset10/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset11/names_atac.txt data/bams tmp_static/Subset11/reads.bam tmp_static/Subset11/reads.bai tmp_static/Subset11/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset12/names_atac.txt data/bams tmp_static/Subset12/reads.bam tmp_static/Subset12/reads.bai tmp_static/Subset12/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset13/names_atac.txt data/bams tmp_static/Subset13/reads.bam tmp_static/Subset13/reads.bai tmp_static/Subset13/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset14/names_atac.txt data/bams tmp_static/Subset14/reads.bam tmp_static/Subset14/reads.bai tmp_static/Subset14/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset2/names_atac.txt data/bams tmp_static/Subset2/reads.bam tmp_static/Subset2/reads.bai tmp_static/Subset2/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset3/names_atac.txt data/bams tmp_static/Subset3/reads.bam tmp_static/Subset3/reads.bai tmp_static/Subset3/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset4/names_atac.txt data/bams tmp_static/Subset4/reads.bam tmp_static/Subset4/reads.bai tmp_static/Subset4/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset5/names_atac.txt data/bams tmp_static/Subset5/reads.bam tmp_static/Subset5/reads.bai tmp_static/Subset5/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset6/names_atac.txt data/bams tmp_static/Subset6/reads.bam tmp_static/Subset6/reads.bai tmp_static/Subset6/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset7/names_atac.txt data/bams tmp_static/Subset7/reads.bam tmp_static/Subset7/reads.bai tmp_static/Subset7/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset8/names_atac.txt data/bams tmp_static/Subset8/reads.bam tmp_static/Subset8/reads.bai tmp_static/Subset8/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset9/names_atac.txt data/bams tmp_static/Subset9/reads.bam tmp_static/Subset9/reads.bai tmp_static/Subset9/peaks.bed hs
+[bam_sort_core] merging from 8 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+makefiles/common.mk:41: WARNING: Temporary folder (/tmp) available space >100GB recommended.
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset13/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset13/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset13/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset13/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset6/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset6/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset6/peaks.bed hs 0.05 4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset8/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset8/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset8/peaks.bed hs 0.05 4
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset1/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset1/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset1/peaks.bed hs 0.05 4
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utsamtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+[bam_sort_core] merging from 16 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 16 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 24 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+ils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset2/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset2/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset2/peaks.bed hs 0.05 4
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset3/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset3/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset3/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset2/reads.bam] Error 1
+make: *** [makefiles/common.mk:138: tmp_static/Subset6/reads.bam] Error 1
+make: *** [makefiles/common.mk:138: tmp_static/Subset1/reads.bam] Error 1
+make: *** [makefiles/common.mk:138: tmp_static/Subset8/reads.bai] Error 1
+make: *** [makefiles/common.mk:138: tmp_static/Subset3/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset14/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset14/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset14/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset14/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset11/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset11/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset11/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset11/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset9/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset9/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset9/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset9/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py",[bam_sort_core] merging from 28 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 40 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 40 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 52 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+ line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset12/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset12/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset12/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset12/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset10/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset10/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset10/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset10/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset5/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset5/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset5/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset5/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset7/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset7/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset7/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset7/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-[bam_sort_core] merging from 52 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset4/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset4/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset4/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset4/reads.bai] Error 1
+make: Target 'cpu' not remade because of errors.
+makefiles/common.mk:41: WARNING: Temporary folder (/tmp) available space >100GB recommended.
+make: Target 'gpu' not remade because of errors.
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset1/names_atac.txt data/bams tmp_static/Subset1/reads.bam tmp_static/Subset1/reads.bai tmp_static/Subset1/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset10/names_atac.txt data/bams tmp_static/Subset10/reads.bam tmp_static/Subset10/reads.bai tmp_static/Subset10/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset11/names_atac.txt data/bams tmp_static/Subset11/reads.bam tmp_static/Subset11/reads.bai tmp_static/Subset11/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset12/names_atac.txt data/bams tmp_static/Subset12/reads.bam tmp_static/Subset12/reads.bai tmp_static/Subset12/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset13/names_atac.txt data/bams tmp_static/Subset13/reads.bam tmp_static/Subset13/reads.bai tmp_static/Subset13/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset14/names_atac.txt data/bams tmp_static/Subset14/reads.bam tmp_static/Subset14/reads.bai tmp_static/Subset14/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset2/names_atac.txt data/bams tmp_static/Subset2/reads.bam tmp_static/Subset2/reads.bai tmp_static/Subset2/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset3/names_atac.txt data/bams tmp_static/Subset3/reads.bam tmp_static/Subset3/reads.bai tmp_static/Subset3/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset4/names_atac.txt data/bams tmp_static/Subset4/reads.bam tmp_static/Subset4/reads.bai tmp_static/Subset4/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset5/names_atac.txt data/bams tmp_static/Subset5/reads.bam tmp_static/Subset5/reads.bai tmp_static/Subset5/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset6/names_atac.txt data/bams tmp_static/Subset6/reads.bam tmp_static/Subset6/reads.bai tmp_static/Subset6/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset7/names_atac.txt data/bams tmp_static/Subset7/reads.bam tmp_static/Subset7/reads.bai tmp_static/Subset7/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset8/names_atac.txt data/bams tmp_static/Subset8/reads.bam tmp_static/Subset8/reads.bai tmp_static/Subset8/peaks.bed hs
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  chromatin macs2 --nth 4 tmp_static/Subset9/names_atac.txt data/bams tmp_static/Subset9/reads.bam tmp_static/Subset9/reads.bai tmp_static/Subset9/peaks.bed hs
+[bam_sort_core] merging from 8 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+samtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+makefiles/common.mk:41: WARNING: Temporary folder (/tmp) available space >100GB recommended.
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset13/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset13/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset13/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset13/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset10/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset10/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset10/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset10/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset1/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset1/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset1/peaks.bed hs 0.05 4
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset4/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset4/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset4/peaks.bed hs 0.05 4
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nsamtools view: writing to "02-filtered.bam" failed: No space left on device
+samtools view: error closing "02-filtered.bam": -1
+
+[bam_sort_core] merging from 16 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 16 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 24 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 28 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+fs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset7/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset7/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset7/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset4/reads.bai] Error 1
+make: *** [makefiles/common.mk:138: tmp_static/Subset7/reads.bai] Error 1
+make: *** [makefiles/common.mk:138: tmp_static/Subset1/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset14/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset14/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset14/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset14/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset11/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset11/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset11/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset11/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset9/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset9/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset9/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset9/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset12/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset12/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset12/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset12/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/ru[bam_sort_core] merging from 40 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 44 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 52 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+[bam_sort_core] merging from 68 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+npy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset5/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset5/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset5/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset5/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset6/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset6/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset6/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset6/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset8/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset8/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset8/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset8/reads.bai] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset3/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset3/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset3/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset3/reads.bam] Error 1
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/chromatin.py", line 67, in macs2
+    d2 = shell.cmdfile(cmd,[],infiles={'cellnames.txt': namestxt},quiet=False,cd=True)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-[bam_sort_core] merging from 88 files...
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]
+
+packages/dictys/utils/shell.py", line 181, in cmdfile
+    raise RuntimeError('Command failed, possibly due to program error: ' + cmda)
+RuntimeError: Command failed, possibly due to program error: /tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/scripts/chromatin_macs2.sh cellnames.txt /tscc/nfs/home/sux002/single_cell_GRN/dictys/data/bams /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset2/reads.bam /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset2/reads.bai /tscc/nfs/home/sux002/single_cell_GRN/dictys/tmp_static/Subset2/peaks.bed hs 0.05 4
+make: *** [makefiles/common.mk:138: tmp_static/Subset2/reads.bam] Error 1
+make: Target 'cpu' not remade because of errors.
+makefiles/common.mk:41: WARNING: Temporary folder (/tmp) available space >100GB recommended.
+mkdir -p output/
+OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_MAX_THREADS=1 NUMEXPR_MAX_THREADS=1 MKL_MAX_THREADS=1 python3 -m dictys  network tofile  data tmp_static data/subsets.txt output/static.h5
+WARNING:303510:2024-05-10 01:57:34,455:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset1 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,456:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset1 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,456:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset10 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,457:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset10 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,457:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset11 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,457:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset11 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,458:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset12 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,458:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset12 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,458:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset13 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,459:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset13 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,459:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset14 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,459:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset14 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,460:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset2 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,460:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset2 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,460:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset3 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,461:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset3 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,461:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset4 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,461:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset4 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,462:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset5 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,462:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset5 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,462:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset6 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,462:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset6 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,463:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset7 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,463:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset7 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,463:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset8 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,464:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset8 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,464:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset9 due to error: FileNotFoundError(2, 'No such file or directory')
+WARNING:303510:2024-05-10 01:57:34,464:/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py:403:Skipping cell subset Subset9 due to error: FileNotFoundError(2, 'No such file or directory')
+Traceback (most recent call last):
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/__main__.py", line 13, in <module>
+    docstringrunner(__package__)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 340, in docstringrunner
+    run_args(pkgname,funcs,args)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/docstring2argparse/__init__.py", line 330, in run_args
+    return func(*a,**ka)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/network.py", line 1074, in tofile
+    n=network.from_folders(diri_data,diri_work,fi_subsets,dynamic=dynamic,nettype=nettype,optional=optional,fi_c=fi_c)
+  File "/tscc/nfs/home/sux002/anaconda3/envs/dictys_cpu/lib/python3.9/site-packages/dictys/net/__init__.py", line 407, in from_folders
+    raise RuntimeError('No network found.')
+RuntimeError: No network found.
+make: *** [makefiles/common.mk:178: output/static.h5] Error 1
